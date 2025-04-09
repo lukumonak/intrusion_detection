@@ -28,14 +28,14 @@
         }
         .form-container input[type="text"],
         .form-container input[type="number"] {
-            width: 100%;
+            width: 93%;
             padding: 10px 15px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 8px;
         }
         .form-container button {
-            width: 100%;
+            width: 93%;
             padding: 12px;
             background-color: #007bff;
             color: white;
@@ -52,7 +52,7 @@
 <body>
 
 <div class="form-container">
-    <h2>Enter Details</h2>
+    <h2>Enter peremeter value:</h2>
     <form method="POST">
         {% csrf_token %}
         <input type="text" name="param1" placeholder="Parameter 1" required>
